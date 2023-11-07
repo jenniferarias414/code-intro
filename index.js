@@ -34,7 +34,7 @@
 
 // CODE HERE
 
-
+let speed = 25
 
 
 
@@ -56,7 +56,8 @@
 
 // CODE HERE
 
-
+speed = 500
+console.log(speed)
 
 
 
@@ -77,7 +78,7 @@
 
 // CODE HERE
 
-
+let faveSnack = "popcorn"
 
 
 
@@ -96,7 +97,7 @@
 
 // CODE HERE
 
-
+let faveDrink = "water"
 
 
 
@@ -116,7 +117,7 @@
 
 // CODE HERE
 
-
+const private = true
 
 
 
@@ -148,7 +149,11 @@
 
 // CODE HERE
 
-
+let netflix = 15
+let hulu = 7
+let disneyPlus = 5
+let youtubePremium = 10
+let peacock = 10
 
 
 
@@ -166,7 +171,8 @@
 
 // CODE HERE
 
-
+let total = netflix + hulu + disneyPlus + youtubePremium + peacock
+console.log(total)
 
 
 
@@ -190,6 +196,15 @@
 
 // CODE HERE
 
+/* hulu = 0
+peacock = 5
+netflix = 8
+*/
+
+hulu = hulu - 7
+peacock -= 5
+netflix -= 7
+// console.log(total) 
 
 
 
@@ -208,7 +223,8 @@
 
 // CODE HERE
 
-
+let newTotal = netflix + hulu + disneyPlus + youtubePremium + peacock
+console.log(newTotal)
 
 
 ///// PROBLEM 9: Bonus Section /////
@@ -264,7 +280,8 @@
 
 // CODE HERE
 
-
+let savings = (1 - (newTotal / total)) * 100
+console.log(savings) 
 
 
 
